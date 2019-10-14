@@ -5,7 +5,7 @@
 +  FUNDAMENTOS DE PROGRAMACION      +
 +                                   +
 *************************************
-+                                   +
++  VAZQUEZ MENA CESAR               +
 +
 */
 
@@ -54,7 +54,7 @@ int main()
       printf("El factorial del numero %d es: %lu", n, obtener_factorial(n)); // invocamos a la funcion para obtener factorial
       printf("\n");
       borrar_scanf(); // limpiamos buffer
-      printf("Deseas repetir el programa Y/N?\n");  // ¿El usuario quiere calcular otro numero?
+      printf("Deseas repetir el programa Y/N?\n");  // Â¿El usuario quiere calcular otro numero?
 
       scanf("%c", &res); //asignamos su respuesta a una variable
       if(res == 'y' || res == 'Y')  // si quiere calcular otro numero reiniciamos programa
